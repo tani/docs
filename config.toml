@@ -4,6 +4,7 @@ title = "Docs Casa"
 disablePathToLower = true
 enableGitInfo = false
 theme = "book"
+DefaultContentLanguage = "jp"
 
 [markup]
 [markup.goldmark.renderer]
