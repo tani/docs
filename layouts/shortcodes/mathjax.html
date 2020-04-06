@@ -1,0 +1,11 @@
+{{ if not (.Page.Scratch.Get "mathjax") }}
+<!-- Include katext only first time -->
+<script id="MathJax-script" async src="{{ "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" | relURL }}"></script>
+{{ .Page.Scratch.Set "mathjax" true }}
+{{ end }}
+
+<span class="mathjax{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ if in .Params "display" }}\[{{ else }}\({{ end -}}
+  {{ $.Inner }}
+  {{- if in .Params "display" }}\]{{ else }}\){{ end }}
+</span>

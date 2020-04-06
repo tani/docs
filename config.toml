@@ -1,0 +1,12 @@
+baseURL = "https://docs.casa/"
+languageCode = "ja-jp"
+title = "Docs Casa"
+disablePathToLower = true
+enableGitInfo = false
+
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
