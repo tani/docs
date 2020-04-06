@@ -3,6 +3,7 @@ languageCode = "ja-jp"
 title = "Docs Casa"
 disablePathToLower = true
 enableGitInfo = false
+theme = "book"
 
 [markup]
 [markup.goldmark.renderer]
