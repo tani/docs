@@ -41,8 +41,8 @@ const Layout: React.SFC = ({children}) => {
         <Container>
             <Header siteTitle={data.site.siteMetadata.title} />
             <Row style={{marginTop: 20}}>
-                <Col xs={2}>
-                    <ul>
+                <Col md={2}>
+                    <ul className="d-none d-md-block">
                         {
                             data.allSitePage.nodes.map((node: any) => (
                                 <li key={node.id}>
@@ -54,13 +54,13 @@ const Layout: React.SFC = ({children}) => {
                         }
                     </ul>
                 </Col>
-                <Col xs={10}>
+                <Col md={10}>
                     <main style={{fontFamily: `"Merriweather", serif`}}>
                         <MDXProvider components={components}>{children}</MDXProvider>
                     </main>
                     <footer>
                         &copy; {new Date().getFullYear()}, TANIGUCHI Masaya, All Rights Reserved
-                            </footer>
+                    </footer>
                 </Col>
             </Row>
         </Container>
