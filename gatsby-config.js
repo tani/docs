@@ -54,7 +54,7 @@ module.exports = {
         resolve: `gatsby-plugin-web-font-loader`,
         options: {
             google: {
-                families: [`DM Serif Display`, `Merriweather`, `Noto Serif JP`, `Noto Serif SC`]
+                families: [`DM Serif Display`, `Merriweather`]
             }
         }
     }
