@@ -49,14 +49,6 @@ module.exports = {
                 `gatsby-remark-images`
             ]
         }
-    },
-    {
-        resolve: `gatsby-plugin-web-font-loader`,
-        options: {
-            google: {
-                families: [`DM Serif Display`, `Merriweather`]
-            }
-        }
     }
   ],
 }
