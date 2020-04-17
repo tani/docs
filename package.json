@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "eleventy --build",
+    "build": "eleventy",
     "test": "eleventy --serve"
   },
   "author": "TANIGUCHI Masaya",
