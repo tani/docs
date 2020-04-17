@@ -4,16 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><%= title %> - docs.casa</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Noto+Serif+SC&family=Source+Serif+Pro&display=swap">
         <style>
         <%- include('../node_modules/picnic/picnic.min.css') %>
         <%- include('../node_modules/prismjs/themes/prism.css') %>
-        <%- include('../node_modules/bootstrap/dist/css/bootstrap-grid.min.css') %>
         nav {
           position: absolute;
         }
         main, footer {
-            font-family: 'Source Serif Pro', 'Noto Serif JP', 'Noto Serif SC', serif;
+            font-family: Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", serif;
+            max-width: 60ch;
+            padding-left: 20px;
+            padding-right: 10px;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 50px;
         }
         </style>
@@ -29,10 +32,10 @@
                 </div>
             </nav>
         </header>
-        <main class="container">
+        <main>
             <%- content %>
         </main>
-        <footer class="container">
+        <footer>
             Copyright &copy; 2020 TANIGUCHI Masaya All Rights Reserved.
         </footer>
     </body>
