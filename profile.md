@@ -1,12 +1,9 @@
 ---
-
+layout: default.ejs
 title: Profile
-
 ---
 
-import Title from "../components/title"
-
-<Title>Profile</Title>
+# Profile
 
 TANIGUCHI Masaya is a first-year Ph.D. student  in Tojo  laboratory, Graduate School of Advanced Institute of Science and Technology, Japan Advanced Institute of Science and Technology. His supervisor is Satoshi Tojo. He did a Bachelor of Science in Mathematics at Gakushuin University, and did a Master of Science in Information Science at Japan Advanced Institute of Science and Technology. His research interests lie in the area of formal semantics of natural language, and programming language.
 
@@ -54,4 +51,5 @@ I am a member of following organization on GitHub.
 - E-mail: `taniguchi (at) jaist.ac.jp`
 - GitHub: [@nzt](https://github.com/nzt)
 - Keybase: [@masaya](https://keybase.com/masaya)
+
 

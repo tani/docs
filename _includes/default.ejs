@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><%= title %> - docs.casa</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Noto+Serif+SC&family=Source+Serif+Pro:wght@400;700&display=swap">
+        <style>
+        <%- include('../node_modules/picnic/picnic.min.css') %>
+        <%- include('../node_modules/prismjs/themes/prism.css') %>
+        <%- include('../node_modules/bootstrap/dist/css/bootstrap-grid.min.css') %>
+        nav {
+          position: absolute;
+        }
+        main, footer {
+            font-family: 'Source Serif Pro', 'Noto Serif JP', 'Noto Serif SC', serif;
+            margin-top: 50px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="brand" href="/">docs.casa</a>
+                <input id="bmenub" type="checkbox" class="show">
+                <label for="bmenub" class="burger pseudo button">menu</label>
+                <div class="menu">
+                    <a class="pseudo button" href="/profile/">Profile</a>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <%- content %>
+        </main>
+        <footer class="container">
+            Copyright &copy; 2020 TANIGUCHI Masaya All Rights Reserved.
+        </footer>
+    </body>
+</html>

@@ -1,61 +1,21 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "@material-ui/core": "^4.9.10",
-    "@mdx-js/mdx": "^1.5.8",
-    "@mdx-js/react": "^1.5.8",
-    "bootstrap": "^4.4.1",
-    "gatsby": "^2.20.12",
-    "gatsby-image": "^2.3.1",
-    "gatsby-plugin-manifest": "^2.3.3",
-    "gatsby-plugin-mdx": "^1.1.7",
-    "gatsby-plugin-offline": "^3.1.2",
-    "gatsby-plugin-preact": "^3.2.1",
-    "gatsby-plugin-react-helmet": "^3.2.1",
-    "gatsby-plugin-sharp": "^2.5.3",
-    "gatsby-plugin-typescript": "^2.3.1",
-    "gatsby-remark-images": "^3.2.2",
-    "gatsby-source-filesystem": "^2.2.2",
-    "gatsby-transformer-sharp": "^2.4.3",
-    "mathjax-full": "^3.0.5",
-    "preact": "^10.4.0",
-    "prism-react-renderer": "^1.0.2",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-bootstrap": "^1.0.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-shadow": "^18.0.1"
-  },
-  "devDependencies": {
-    "@types/mdx-js__react": "^1.5.1",
-    "@types/react-helmet": "^5.0.15",
-    "eslint-config-react-app": "^5.2.1",
-    "prettier": "^1.19.1",
-    "typescript": "^3.8.3"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "build": "eleventy --build",
+    "test": "eleventy --serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "author": "TANIGUCHI Masaya",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "bootstrap": "^4.4.1",
+    "html-minifier": "^4.0.0",
+    "markdown-it-mathjax3": "^2.0.3",
+    "markdown-it-prism": "^2.0.5",
+    "picnic": "^6.5.2",
+    "prismjs": "^1.20.0"
   }
 }
