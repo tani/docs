@@ -6,7 +6,7 @@ const htmlMinifier = require('html-minifier')
 module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("CNAME")
     eleventyConfig.setLibrary("md", markdownIt().use(markdownItMathjax3).use(markdownItPrism))
-    eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
+    eleventyConfig.addTransform("html-minifier", (content, outputPath) => {
         if (outputPath.endsWith(".html")) {
             let minified = htmlMinifier.minify(content, {
                 removeComments: true,
