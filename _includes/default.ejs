@@ -11,6 +11,7 @@
           position: absolute;
         }
         main, footer {
+            animation: fadeIn 0.5s ease 0s 1 normal;
             font-family: Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", serif;
             max-width: 60ch;
             padding-left: 20px;
@@ -18,6 +19,10 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 50px;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
         }
         </style>
     </head>
