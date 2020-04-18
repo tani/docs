@@ -7,4 +7,4 @@ title: Index
 
 Bibliotheca of Linguistics, Logic, and Lisp.
 
-- [Profile](/profile/) - About me.
+- [Profile](/profile/) - About me
