@@ -12,6 +12,7 @@
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "html-minifier": "^4.0.0",
+    "markdown-it-container": "^2.0.0",
     "markdown-it-mathjax3": "^2.1.0",
     "markdown-it-prism": "^2.0.5",
     "picnic": "^6.5.2",
