@@ -48,7 +48,7 @@ I am a member of following organization on GitHub.
 
 ## Contact
 
-- E-mail: `taniguchi (at) jaist.ac.jp`, `mew@cat.ovh`
+- E-mail: `taniguchi (at) jaist.ac.jp`, `mew (at) cat.ovh`
 - GitHub: [@nzt](https://github.com/nzt)
 - Keybase: [@masaya](https://keybase.com/masaya)
 
