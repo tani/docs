@@ -7,11 +7,6 @@ title: Profile
 
 TANIGUCHI Masaya is a first-year Ph.D. student  in Tojo  laboratory, Graduate School of Advanced Science and Technology, Japan Advanced Institute of Science and Technology. His supervisor is Satoshi Tojo. He did a Bachelor of Science in Mathematics at Gakushuin University, and did a Master of Science in Information Science at Japan Advanced Institute of Science and Technology. His research interests lie in the area of formal semantics of natural language, and programming language.
 
-<div style="text-align: cenetr; display: flex; justify-content: center; align-items: center;">
-  <img style="display: block;" height="50px" src="https://www.jaist.ac.jp/about/images/jaist-logo-mini.jpg" alt="JAIST"/>
-  <img style="display: block;" height="100px" src="https://www.univ.gakushuin.ac.jp/about/images/gakushuin_uni_j_yoko-thumb-340.jpg" alt="Gakushuin"/>
-</div>
-
 ## Research Interests
 
 - Continuations in natural language
