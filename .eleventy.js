@@ -5,7 +5,7 @@ const markdownItPrism = require('markdown-it-prism')
 const htmlMinifier = require('html-minifier')
 
 const markdown =
-    markdownIt()
+    markdownIt({html: true})
         .use(markdownItMathjax3)
         .use(markdownItPrism)
         .use(markdownItContainer, 'proof')
