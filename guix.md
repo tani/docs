@@ -1,3 +1,8 @@
+---
+layout: default.ejs
+title: GUIX
+---
+
 # GUIX
 
 ## トラブルシュート
