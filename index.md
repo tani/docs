@@ -8,3 +8,4 @@ title: Index
 Bibliotheca of Linguistics, Logic, and Lisp.
 
 - [Profile](/profile/) - About me
+- [GUIX](/guix/) - GUIX package manager guide for Japanese users
