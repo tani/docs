@@ -16,7 +16,7 @@ title: GUIX
    `glibc-locales`をインストールする必要がある。しかし、警告と同時に表示されるヒントでは、
    `glibc-utf8-locales`をインストールするよう促されているため、日本語環境を使用しているユーザーは注意が必要である。
    
-   ```sh
+   ```shell
    $ guix install glibc-locales
    $ echo 'export GUIX_LOCPATH="$HOME/.guix-profile/lib/locale"' >> $HOME/.bashrc
    $ source $HOME/.bashrc
