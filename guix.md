@@ -54,3 +54,15 @@ echo 'source $HOME/.nix-profile/etc/profile.d/nix.sh' >> ~/.bashrc
    $ echo 'export GUIX_LOCPATH="$HOME/.guix-profile/lib/locale"' >> $HOME/.bashrc
    $ source $HOME/.bashrc
    ```
+ 2. コマンド`guix isntall`を実行すると`substitute: /gnu/store/29jhbbg1hf557x8j53f9sxd9imlmf02a-bash-minimal-5.0.7/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.utf8)`と表示される。
+    
+    上記のエラーは、guixがパッケージをインストールする際に一時的に管理者権限に昇格してパッケージをダウンロードすることが原因である。
+    このとき、管理者権限にはGUIX用のロケールが設定されていない場合GUIXは管理者rootユーザに対して上記のエラーを出力する。そのエラーが
+    伝搬し一般ユーザである実行ユーザにも表示されている。従って、rootユーザに対してロケールをインストールすれば、この問題は解決する。
+    
+    ```shell
+    $ sudo -i #rootユーザになる
+    % guix install glibc-locales
+    % echo 'export GUIX_LOCPATH="$HOME/.guix-profile/lib/locale"' >> $HOME/.bashrc
+    % source $HOME/.bashrc
+    ```
