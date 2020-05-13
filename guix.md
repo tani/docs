@@ -29,7 +29,14 @@ $ wget -qO - 'https://sv.gnu.org/people/viewgpg.php?user_id=15145' | sudo gpg --
 $ wget -qO - 'https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh' | sudo sh -
 ```
 
-これでLinux環境に各種ファイルが設置され、GUIX用のユーザとデーモンが作成される。なお、`guile: warning failed to install locale`と表示された場合は、[下記](#troubleshooting)を参考に対応する。
+これでLinux環境に各種ファイルが設置され、GUIX用のユーザとデーモンが作成される。
+最後に`~/.bashrc`や`~/.zshrc`に以下を追記して再読み込みする。
+
+```shell
+source $HOME/.nix-profile/etc/profile.d/nix.sh
+```
+
+なお、`guile: warning failed to install locale`と表示された場合は、[下記](#troubleshooting)を参考に対応する。
 
 ## <a name="troubleshooting">トラブルシューティング</a>
 
