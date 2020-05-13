@@ -33,7 +33,7 @@ $ wget -qO - 'https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.
 最後に`~/.bashrc`や`~/.zshrc`に以下を追記して再読み込みする。
 
 ```shell
-echo 'source $HOME/.nix-profile/etc/profile.d/nix.sh' >> ~/.bashrc
+echo 'source $HOME/.nix-profile/etc/profile' >> ~/.bashrc
 ```
 
 なお、`guile: warning failed to install locale`と表示された場合は、[下記](#troubleshooting)を参考に対応する。
