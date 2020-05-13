@@ -29,6 +29,7 @@ TANIGUCHI Masaya is a first-year Ph.D. student  in Tojo  laboratory, Graduate Sc
 - Teaching assistant for "Formal Language and automata" (April. 2019 - June. 2019) 
 - Teaching assistant for "Mathematics for Information Scientist" (June 2019 - August 2019)
 - Teaching assistant for "Formal Language and automata" (April. 2020 - June. 2020) 
+- Teaching assistant for "Mathematics for Information Scientist" (June 2020 - August 2020)
 
 ## Research Experience
 
