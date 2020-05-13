@@ -38,6 +38,19 @@ echo 'source $HOME/.guix-profile/etc/profile' >> ~/.bashrc
 
 なお、`guile: warning failed to install locale`と表示された場合は、[下記](#troubleshooting)を参考に対応する。
 
+## チャンネル
+
+GUIXの公式のリポジトリはCIサーバがソースコードをダウンロードしビルドできるものしか登録できないので、
+各ソフトウェア開発チームが配布している公式のビルド済みバイナリは登録できない。そこで筆者も自分用にパッケージを配布する[チャンネル](https://github.com/nzt/guix-vanilla)を用意した。
+このチャンネルはx86_64のLinux環境でしかサポートしていないので、RUNPATHの設定が怪しいので動作しないGUIX SDでは動作しない恐れがあることに注意して欲しい。このチャンネルは`~/.config/guix/channels/`に以下を追記して`guix pull`を実行することで有効化される。
+
+```scheme
+(cons* (channel
+        (name 'vanilla)
+        (url "https://github.com/nzt/guix-vanilla"))
+       %default-channels)
+```
+
 ## <a name="troubleshooting">トラブルシューティング</a>
 
 以下では日本語環境でGUIXを使用する際のよくある問題とその解決方法を示す。
