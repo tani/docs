@@ -79,3 +79,12 @@ GUIXの公式のリポジトリはCIサーバがソースコードをダウン�
     % echo 'export GUIX_LOCPATH="$HOME/.guix-profile/lib/locale"' >> $HOME/.bashrc
     % source $HOME/.bashrc
     ```
+3. GUIのアプリケーションで文字化けする。
+  
+   GUIX内でのフォントのキャッシュが更新されていないことが原因です。したがって **`fontcnofig`と適当なフォントをインストール** して**フォントのキャッシュを更新**することで解決します。
+   
+   ```shell
+   $ guix instlal fontcnofig font-google-noto
+   $ source ~/.guix-profile/etc/profile
+   $ fc-cache -fv
+   ```
