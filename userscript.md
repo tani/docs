@@ -1,10 +1,5 @@
 ---
 layout: default.ejs
-title: Index
----
-
----
-layout: default.ejs
 title: Collection of userscripts
 ---
 
