@@ -1,4 +1,24 @@
+---
+layout: default.ejs
+title: 日本語 LaTeX 作法
+---
+
 #　日本語 LaTeX 作法
+
+## TeX ディストリビューション
+
+- Win32TeX
+- TinyTeX
+- TeXLive
+  - minimal
+  - basic
+  - small
+  - medium
+  - full
+- MacTeX
+- BasicTeX
+- Drag & Drop UpTeX
+- Tectonic
 
 ## TeXエンジン
 
@@ -8,7 +28,7 @@
 - upTeX, e-upTeX (内部エンコーディングがUnicodeになっているTeX処理系．2007年誕生）
 - XeTeX（内部エンコーディングがUnicodeになっており，システムのフォントを直接利用するTeX処理系．2004年誕生）
 - pdfTeX (枯れたTeX処理系，直接PDFを出力する．1997年誕生）
-- LuaLaX（pdftexの後継で内部エンコーディングがUnicodeであり，LuaでマクロがかけるTeX処理系，2007年誕生)
+- LuaLaTeX（pdftexの後継で内部エンコーディングがUnicodeであり，LuaでマクロがかけるTeX処理系，2007年誕生)
 
 日本語でLaTeXの組版するときのおすすめ順は，LuaTeX, upTeX, pTeX, XeTeX, pdfTeXである．
 
@@ -45,8 +65,7 @@ pdfTeXは海外で最も使用人口の多いTeX処理系である．
 `ltjsclasses`は`jsclasses`をLuaTeXでコンパイルできるように改変したもので，
 フォント等の部分でLuaTeXの機能が十分に発揮できるように機能が追加されている．
 
-`Bxjscls`は`jsclasses`をpTeX, upTeX, pdfTeX, XeTeX, LuaTeXなどでコンパルできるように改変したもの．
-クロスプラットフォームなので，テンプレートを作ったりする文には便利かもしれない．
+`Bxjscls`は`jsclasses`をpTeX, upTeX, pdfTeX, XeTeX, LuaTeXなどでコンパルできるように改変したものである． クロスプラットフォームなので，テンプレートを作ったりする分には便利かもしれない．
 
 とくに理由がなければ，`jsclasses`か`ltjsclasses`を使用するTeX処理系によって選べばよい．
 
@@ -64,11 +83,9 @@ pdfTeXは海外で最も使用人口の多いTeX処理系である．
 | 明朝体 | `\\textmc{明朝体}` | 本文の通常の書体 |
 | ゴシック体 | `\\textgt{ゴシック体}` | 強調，見出し用の書体 |
 
-
 ## Beamer
 
 通常のbeamerドキュメントクラスに`luatexja`パッケージを読み込むことで，日本語でBeamerドキュメントを作ることができる．
-
 
 ## 参考文献
 - [TeX処理系御伽話](https://web.archive.org/web/20190521132203/https://qiita.com/yyu/items/6404656f822ce14db935)
