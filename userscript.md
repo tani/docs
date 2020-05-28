@@ -5,7 +5,7 @@ title: Index
 
 ---
 layout: default.ejs
-title: Collection of userscript
+title: Collection of userscripts
 ---
 
 These snippets were written by TANIGUCHI Masaya.

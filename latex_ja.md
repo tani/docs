@@ -3,7 +3,7 @@ layout: default.ejs
 title: 日本語 LaTeX 作法
 ---
 
-#　日本語 LaTeX 作法
+# 日本語 LaTeX 作法
 
 ## TeX ディストリビューション
 
