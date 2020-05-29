@@ -23,7 +23,8 @@ const minify =
                 removeComments: true,
                 collapseWhitespace: true,
                 conservativeCollapse: true,
-                minifyCSS: true
+                minifyCSS: true,
+                minifyJS: true
             });
             return minified;
         }
