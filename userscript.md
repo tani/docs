@@ -1,7 +1,9 @@
 ---
 layout: default.ejs
-title: Collection of userscripts
+title: Userscripts
 ---
+
+# Userscripts
 
 These snippets were written by TANIGUCHI Masaya.
 

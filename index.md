@@ -8,6 +8,6 @@ title: Index
 Bibliotheca of Linguistics, Logic, and Lisp.
 
 - [Profile](/profile/) - About me
-- [Collection of userscripts](/userscript/) - These snippets were written by TANIGUCHI Masaya.
+- [Userscripts](/userscript/) - These snippets were written by TANIGUCHI Masaya.
 - [GUIX利用ガイド](/guix_ja/) - GUIX package manager guide for Japanese users
 - [日本語 LaTeX 作法](/latex_ja/) - (WORK IN PROGRESS) LaTeX guide for Japanese
