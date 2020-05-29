@@ -12,9 +12,8 @@
           position: absolute;
         }
         main, footer {
-            animation: fadeIn 0.5s ease 0s 1 normal;
-            font-family: "URW Palladio L", "Palatino", "Palatino Linotype", "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "Noto Serif CJK JP", serif;
-            font-feature-settings: "pwid", "kern";
+            font-family: source-han-serif-japanese, serif !important;
+            font-feature-settings: "palt";
             max-width: 90ch;
             padding-left: 20px;
             padding-right: 10px;
@@ -22,9 +21,8 @@
             margin-right: auto;
             margin-top: 50px;
         }
-        @keyframes fadeIn {
-            0% { opacity: 0; }
-            100% { opacity: 1; }
+        code {
+            font-family: source-code-pro, monospace !important;
         }
         </style>
     </head>
@@ -46,5 +44,15 @@
             <p>Copyright &copy; 2020 TANIGUCHI Masaya All Rights Reserved.</p>
             <p>Please tell me on <a href="https://github.com/nzt/docs">GitHub</a> if you found any typos and misstatements.</p>
         </footer>
+        <script>
+        (function(d) {
+            var config = {
+            kitId: 'bzi0cwq',
+            scriptTimeout: 3000,
+            async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+        </script>
     </body>
 </html>
