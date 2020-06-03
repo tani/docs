@@ -4,18 +4,27 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "eleventy",
-    "test": "eleventy --serve"
+    "build": "gulp"
   },
   "author": "TANIGUCHI Masaya",
   "license": "UNLICENSED",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "html-minifier": "^4.0.0",
-    "markdown-it-container": "^2.0.0",
-    "markdown-it-mathjax3": "^2.2.0",
-    "markdown-it-prism": "^2.0.5",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "highlight.js": "^10.0.3",
     "picnic": "^6.5.2",
-    "prismjs": "^1.20.0"
+    "rehype-highlight": "^4.0.0",
+    "rehype-mathjax": "^2.0.0",
+    "rehype-preset-minify": "^5.0.1",
+    "rehype-stringify": "^7.0.0",
+    "rehype-template": "^0.2.0",
+    "remark-extract-frontmatter": "^2.0.2",
+    "remark-frontmatter": "^2.0.0",
+    "remark-math": "^2.0.1",
+    "remark-parse": "^8.0.2",
+    "remark-rehype": "^7.0.0",
+    "unified": "^9.0.0",
+    "unified-engine-gulp": "^8.0.0",
+    "yaml": "^1.10.0"
   }
 }

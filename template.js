@@ -1,15 +1,19 @@
-<!DOCTYPE html>
+const fs = require("fs")
+const { html, doctype } = require("rehype-template")
+
+module.exports = (node, frontmatter) => html`
+${doctype}
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title><%= title %> - wwww.typed.cc</title>
-        <link rel="icon" href="data:,">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>${frontmatter.title} - wwww.typed.cc</title>
+        <link rel="icon" href="data:," />
         <style>
-        <%- include('../node_modules/picnic/picnic.min.css') %>
-        <%- include('../node_modules/prismjs/themes/prism.css') %>
+        ${fs.readFileSync('node_modules/picnic/picnic.min.css', 'utf-8')}
+        ${fs.readFileSync('node_modules/highlight.js/styles/default.css', 'utf-8')}
         nav {
-          position: absolute;
+            position: absolute;
         }
         main, footer {
             font-family: source-han-serif-japanese, serif !important;
@@ -30,7 +34,7 @@
         <header>
             <nav>
                 <a class="brand" href="/">HOME</a>
-                <input id="bmenub" type="checkbox" class="show">
+                <input id="bmenub" type="checkbox" class="show"/>
                 <label for="bmenub" class="burger pseudo button">MENU</label>
                 <div class="menu">
                     <a class="pseudo button" href="/profile/">PROFILE</a>
@@ -38,7 +42,7 @@
             </nav>
         </header>
         <main>
-            <%- content %>
+            ${node}
         </main>
         <footer>
             <p>Copyright &copy; 2020 TANIGUCHI Masaya All Rights Reserved.</p>
@@ -56,3 +60,4 @@
         </script>
     </body>
 </html>
+`
