@@ -10,8 +10,8 @@ ${doctype}
         <title>${frontmatter.title} - wwww.typed.cc</title>
         <link rel="icon" href="data:," />
         <style>
-        ${fs.readFileSync('node_modules/picnic/picnic.min.css', 'utf-8')}
-        ${fs.readFileSync('node_modules/highlight.js/styles/default.css', 'utf-8')}
+        ${fs.readFileSync("node_modules/picnic/picnic.min.css", "utf-8")}
+        ${fs.readFileSync("node_modules/highlight.js/styles/default.css", "utf-8")}
         nav {
             position: absolute;
         }
@@ -45,7 +45,7 @@ ${doctype}
             ${node}
         </main>
         <footer>
-            <p>Copyright &copy; 2020 TANIGUCHI Masaya All Rights Reserved.</p>
+            <p>Copyright (c) 2020 TANIGUCHI Masaya All Rights Reserved.</p>
             <p>Please tell me on <a href="https://github.com/nzt/docs">GitHub</a> if you found any typos and misstatements.</p>
         </footer>
         <script>
