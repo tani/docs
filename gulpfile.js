@@ -13,7 +13,6 @@ const stringify = require("rehype-stringify")
 const rename = require("gulp-rename")
 const { template } = require("rehype-template")
 const minify = require("rehype-preset-minify")
-const t = require("./template")
 
 const processor = unified()
     .use(remark)
@@ -23,7 +22,7 @@ const processor = unified()
     .use(remark2rehype)
     .use(mathjax)
     .use(highlight)
-    .use(template, {template: t})
+    .use(template, {template: require("./template")})
     .use(minify)
     .use(stringify)
 
@@ -32,9 +31,8 @@ const engine = Engine({
     processor,
 })
 
-gulp.task("default", () => {
-    return gulp.src("*.md")
+exports.default = () => 
+    gulp.src("*.md")
         .pipe(engine())
         .pipe(rename({extname: ".html"}))
         .pipe(gulp.dest("build/"))
-})
