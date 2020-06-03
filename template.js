@@ -16,7 +16,7 @@ ${doctype}
             position: absolute;
         }
         main, footer {
-            font-family: source-han-serif-japanese, serif !important;
+            font-family: "Palatino Linotype", Palatino, "URW Palladio L", "Yu Mincho", YuMincho, "Noto Serif CJK JP", serif !important;
             font-feature-settings: "palt";
             max-width: 800px;
             padding-left: 20px;
@@ -26,7 +26,7 @@ ${doctype}
             margin-top: 50px;
         }
         code {
-            font-family: source-code-pro, monospace !important;
+            font-family: "Lucida Console", Monaco, "Noto Mono", monospace !important;
         }
         </style>
     </head>
@@ -37,7 +37,7 @@ ${doctype}
                 <input id="bmenub" type="checkbox" class="show"/>
                 <label for="bmenub" class="burger pseudo button">MENU</label>
                 <div class="menu">
-                    <a class="pseudo button" href="/profile/">PROFILE</a>
+                    <a class="pseudo button" href="/profile.html">PROFILE</a>
                 </div>
             </nav>
         </header>
@@ -48,16 +48,6 @@ ${doctype}
             <p>Copyright (c) 2020 TANIGUCHI Masaya All Rights Reserved.</p>
             <p>Please tell me on <a href="https://github.com/nzt/docs">GitHub</a> if you found any typos and misstatements.</p>
         </footer>
-        <script>
-        (function(d) {
-            var config = {
-            kitId: 'bzi0cwq',
-            scriptTimeout: 3000,
-            async: true
-            },
-            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-        })(document);
-        </script>
     </body>
 </html>
 `
