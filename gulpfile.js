@@ -1,6 +1,8 @@
 const gulp = require("gulp")
-const unified = require("unified")
+const rename = require("gulp-rename")
+const htmlmin = require("gulp-htmlmin")
 const Engine = require("unified-engine-gulp")
+const unified = require("unified")
 const remark = require("remark-parse")
 const remark2rehype = require("remark-rehype")
 const frontmatter = require("remark-frontmatter")
@@ -8,12 +10,10 @@ const extract = require("remark-extract-frontmatter")
 const math = require("remark-math")
 const mathjax = require("rehype-mathjax")
 const highlight = require("rehype-highlight")
-const { parse } = require("yaml")
 const stringify = require("rehype-stringify")
-const rename = require("gulp-rename")
 const { template } = require("rehype-template")
 const removeUnusedCss = require("rehype-remove-unused-css")
-const htmlmin = require("gulp-htmlmin")
+const { parse } = require("yaml")
 
 const processor = unified()
     .use(remark)
@@ -27,7 +27,7 @@ const processor = unified()
     .use(removeUnusedCss)
     .use(stringify)
 
-const engine = Engine({
+const engine = new Engine({
     name: "remark",
     processor,
 })
