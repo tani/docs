@@ -16,6 +16,7 @@
     "rehype-highlight": "^4.0.0",
     "rehype-mathjax": "^2.0.0",
     "rehype-preset-minify": "^5.0.1",
+    "rehype-remove-unused-css": "^0.1.2",
     "rehype-stringify": "^7.0.0",
     "rehype-template": "^0.2.0",
     "remark-extract-frontmatter": "^2.0.2",
