@@ -18,12 +18,9 @@ ${doctype}
         main, footer {
             font-family: "Palatino Linotype", Palatino, "URW Palladio L", "Yu Mincho", YuMincho, "Noto Serif CJK JP", serif !important;
             font-feature-settings: "palt";
-            max-width: 800px;
-            padding-left: 20px;
-            padding-right: 10px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 50px;
+            width: min(800px, 100%);
+            padding: 0px 20px;
+            margin: 50px auto;
         }
         code {
             font-family: "Lucida Console", Monaco, "Noto Mono", monospace !important;
