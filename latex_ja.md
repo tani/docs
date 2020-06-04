@@ -3,7 +3,7 @@ layout: default.ejs
 title: 日本語 LaTeX 作法
 ---
 
-# 日本語 LaTeX 作法
+# 日本語 $\mathrm{\LaTeX}$ 作法
 
 ## TeX ディストリビューション
 
@@ -22,15 +22,15 @@ title: 日本語 LaTeX 作法
 
 ## TeXエンジン
 
-現在日本語組版ができるTeX処理系のうちメジャーなものは以下の通りである．
+現在日本語組版ができる$\mathrm{\TeX}$処理系のうちメジャーなものは以下の通りである．
 
-- pTeX, e-pTeX (枯れた日本語対応のTeX処理系．最も古くから存在する．1987年誕生）
-- upTeX, e-upTeX (内部エンコーディングがUnicodeになっているTeX処理系．2007年誕生）
+- $\mathrm{p\TeX}$, $\mathrm{\varepsilon\text{-}p\TeX}$ (枯れた日本語対応の$\mathrm{\TeX}$処理系．最も古くから存在する．1987年誕生）
+- $\mathrm{up\TeX}$, $\mathrm{\varepsilon\text{-}up\TeX}$ (内部エンコーディングがUnicodeになっているTeX処理系．2007年誕生）
 - XeTeX（内部エンコーディングがUnicodeになっており，システムのフォントを直接利用するTeX処理系．2004年誕生）
-- pdfTeX (枯れたTeX処理系，直接PDFを出力する．1997年誕生）
-- LuaLaTeX（pdftexの後継で内部エンコーディングがUnicodeであり，LuaでマクロがかけるTeX処理系，2007年誕生)
+- $\mathrm{pdf\TeX}$ (枯れたTeX処理系，直接PDFを出力する．1997年誕生）
+- $\mathrm{Lua\TeX}$（pdftexの後継で内部エンコーディングがUnicodeであり，Luaでマクロがかける$\mathrm{\TeX}$処理系，2007年誕生)
 
-日本語でLaTeXの組版するときのおすすめ順は，LuaTeX, upTeX, pTeX, XeTeX, pdfTeXである．
+日本語で$\mathrm{\LaTeX}$の組版するときのおすすめ順は，LuaTeX, upTeX, pTeX, XeTeX, pdfTeXである．
 
 LuaTeXは現在TeXコミュニティでフラグシップのTeX処理系であり，日本語組版の開発も活発です．
 とくにフォントとPDF関連の機能はLuaTeXが最も充実しています．インターネット上にあるテンプレートを使用しない場合は
