@@ -1,5 +1,5 @@
 ---
-layout: default.ejs
+language: ja
 title: GUIX利用ガイド
 ---
 

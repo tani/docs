@@ -1,5 +1,5 @@
 ---
-layout: default.ejs
+language: en
 title: Index
 ---
 

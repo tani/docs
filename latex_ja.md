@@ -1,5 +1,5 @@
 ---
-layout: default.ejs
+language: ja
 title: 日本語 LaTeX 作法
 ---
 

@@ -3,10 +3,7 @@ const { html, doctype, comment } = require("rehype-template")
 
 module.exports = (node, frontmatter) => html`
 ${doctype}
-${comment("picnic\n"+fs.readFileSync("node_modules/picnic/LICENSE", "utf-8"))}
-${comment("highlight.js\n"+fs.readFileSync("node_modules/highlight.js/LICENSE", "utf-8"))}
-<!-- MathJaX just generates images and stylesheet but there are no original code. -->
-<html lang="en">
+<html lang=${frontmatter.language}>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,4 +47,7 @@ ${comment("highlight.js\n"+fs.readFileSync("node_modules/highlight.js/LICENSE", 
         </footer>
     </body>
 </html>
+${comment("\npicnic\n"+fs.readFileSync("node_modules/picnic/LICENSE", "utf-8"))}
+${comment("\nhighlight.js\n"+fs.readFileSync("node_modules/highlight.js/LICENSE", "utf-8"))}
+<!-- MathJaX just generates images and stylesheet but there are no original code. -->
 `
