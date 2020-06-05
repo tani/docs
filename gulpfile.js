@@ -1,6 +1,5 @@
 const gulp = require("gulp")
 const rename = require("gulp-rename")
-const htmlmin = require("gulp-htmlmin")
 const Engine = require("unified-engine-gulp")
 const unified = require("unified")
 const remark = require("remark-parse")
@@ -13,7 +12,10 @@ const highlight = require("rehype-highlight")
 const stringify = require("rehype-stringify")
 const { template } = require("rehype-template")
 const removeUnusedCss = require("rehype-remove-unused-css")
+const minifyWhitespace = require("rehype-minify-whitespace")
+const minifyCssStyle = require("rehype-minify-css-style")
 const { parse } = require("yaml")
+const tableCellStyle = require("@mapbox/hast-util-table-cell-style")
 
 const processor = unified()
     .use(remark)
@@ -21,10 +23,13 @@ const processor = unified()
     .use(frontmatter)
     .use(extract, {yaml: parse})
     .use(remark2rehype)
+    .use(()=>tree=>tableCellStyle(tree))
     .use(template, {template: require("./template")})
     .use(highlight)
     .use(mathjax)
     .use(removeUnusedCss)
+    .use(minifyCssStyle)
+    .use(minifyWhitespace)
     .use(stringify)
 
 const engine = new Engine({
@@ -35,10 +40,5 @@ const engine = new Engine({
 exports.default = () => 
     gulp.src("*.md")
         .pipe(engine())
-        .pipe(htmlmin({
-            minifyCSS: true,
-            collapseWhitespace: true,
-            conservativeCollapse: true
-        }))
         .pipe(rename({extname: ".html"}))
         .pipe(gulp.dest("build/"))
