@@ -25,7 +25,7 @@ title: 日本語 LaTeX 作法
 現在日本語組版ができる$\mathrm{\TeX}$処理系のうちメジャーなものは以下の通りである．
 
 - $\mathrm{p\TeX}$, $\mathrm{\varepsilon\text{-}p\TeX}$ (枯れた日本語対応の$\mathrm{\TeX}$処理系．最も古くから存在する．1987年誕生）
-- $\mathrm{up\TeX}$, $\mathrm{\varepsilon\text{-}up\TeX}$ (内部エンコーディングがUnicodeになっているTeX処理系．2007年誕生）
+- $\mathrm{up\TeX}$, $\mathrm{\varepsilon\text{-}up\TeX}$ (内部エンコーディングがUnicodeになっている$\mathrm{\TeX}$処理系．2007年誕生）
 - XeTeX（内部エンコーディングがUnicodeになっており，システムのフォントを直接利用するTeX処理系．2004年誕生）
 - $\mathrm{pdf\TeX}$ (枯れたTeX処理系，直接PDFを出力する．1997年誕生）
 - $\mathrm{Lua\TeX}$（pdftexの後継で内部エンコーディングがUnicodeであり，Luaでマクロがかける$\mathrm{\TeX}$処理系，2007年誕生)
