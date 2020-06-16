@@ -12,5 +12,5 @@ A list of softwares for my research
 - SageMath 8 - An open-source mathematical software system
 - ACL2 8.2 - A theorem prover
 - $\TeX$Live 2020 - A TeX Distribution
-- Steel Bank Common Lisp (SBCL) 2.0.5 - A Common Lisp compiler/
+- Steel Bank Common Lisp (SBCL) 2.0.5 - A Common Lisp compiler
 - SWI-Prolog 8.2.0-1 - A free Prolog environment
