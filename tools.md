@@ -1,6 +1,6 @@
 ---
 title: Tools
-author: TANIGUCHI Masaya
+language: en
 ---
 
 # Tools
