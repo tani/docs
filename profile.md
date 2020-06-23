@@ -50,7 +50,7 @@ I am a member of following organization on GitHub.
 ## Contact
 
 - E-mail: `taniguchi (at) jaist.ac.jp`, `mew (at) cat.ovh`
-- GitHub: [@nzt](https://github.com/nzt)
+- GitHub: [@tani](https://github.com/tani)
 - Keybase: [@masaya](https://keybase.io/masaya)
 
 
