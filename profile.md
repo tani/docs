@@ -12,6 +12,7 @@ TANIGUCHI Masaya is a first-year Ph.D. student  in Tojo  laboratory, Graduate Sc
 - Continuations in natural language
 - Montague semantics
 - Formal semantics of natural language
+- Programming language
 
 ## Refereed Publication
 
