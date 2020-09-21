@@ -7,7 +7,7 @@ ${doctype}
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>${frontmatter.title} - wwww.typed.cc</title>
+        <title>${frontmatter.title} - www.docs.casa</title>
         <link rel="icon" href="data:," />
         <style>
         ${fs.readFileSync("node_modules/picnic/picnic.min.css", "utf-8")}
