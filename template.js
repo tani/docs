@@ -9,21 +9,21 @@ ${doctype}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>${frontmatter.title} - www.docs.casa</title>
         <link rel="icon" href="data:," />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Source+Code+Pro&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
         <style>
         ${fs.readFileSync("node_modules/picnic/picnic.min.css", "utf-8")}
         ${fs.readFileSync("node_modules/highlight.js/styles/default.css", "utf-8")}
         nav {
             position: absolute;
         }
-        main, footer {
-            font-family: "Palatino Linotype", Palatino, "URW Palladio L", "Yu Mincho", YuMincho, "Noto Serif CJK JP", serif !important;
-            font-feature-settings: "palt";
+        header, main, footer {
+            font-family: 'Source Sans Pro', 'Noto Sans JP', 'Noto Sans SC', sans-serif;
             width: min(800px, 100%);
             padding: 0px 20px;
             margin: 50px auto;
         }
         code {
-            font-family: "Lucida Console", Monaco, "Noto Mono", monospace !important;
+            font-family: 'Source Code Pro', monospace;
         }
         </style>
     </head>
