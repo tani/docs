@@ -36,7 +36,8 @@ TANIGUCHI Masaya is a first-year Ph.D. student  in Tojo  laboratory, Graduate Sc
 
 - Instructor, Gakushuin University Computer Centre, April. 2015 - March. 2018
 - Research Assistant, National Institute of Informatics, August. 2016 - Now
-- Doctoral Research Fellow, Japan Advanced Institute of Science and Technology, April. 2020 - Now
+- Doctoral Research Fellow, Japan Advanced Institute of Science and Technology, April. 2020 - March. 2021
+- JSPS Research Fellow DC2 (Linguistics), Japan Society for the Promotion of Science, April. 2021 - March. 2023
 
 ## Softwares
 
@@ -50,7 +51,7 @@ I am a member of following organization on GitHub.
 
 ## Contact
 
-- E-mail: `taniguchi (at) jaist.ac.jp`, `mew (at) cat.ovh`
+- E-mail: `taniguchi (at) jaist.ac.jp`
 - GitHub: [@tani](https://github.com/tani)
 - Keybase: [@masaya](https://keybase.io/masaya)
 
