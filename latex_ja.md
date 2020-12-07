@@ -59,7 +59,7 @@ pdfTeX は海外で最も使用人口の多い TeX 処理系である．
 
 日本語ドキュメントクラスは`jclasses`と`jsclasses`, `ltjsclasses`, `Bxjscls`がある．
 
-`jsclasses`は`jclass`の後継であり，日本でもっとも使用されているドキュメントクラスである．
+`jsclasses`は`jclasses`の後継であり，日本でもっとも使用されているドキュメントクラスである．
 このドキュメントクラスは，pTeX と upTeX でコンパイルできる．
 
 `ltjsclasses`は`jsclasses`を LuaTeX でコンパイルできるように改変したもので，
@@ -68,6 +68,7 @@ pdfTeX は海外で最も使用人口の多い TeX 処理系である．
 `Bxjscls`は`jsclasses`を pTeX, upTeX, pdfTeX, XeTeX, LuaTeX などでコンパルできるように改変したものである． クロスプラットフォームなので，テンプレートを作ったりする分には便利かもしれない．
 
 とくに理由がなければ，`jsclasses`か`ltjsclasses`を使用する TeX 処理系によって選べばよい．
+ちなみに `jclasses` 系のクラスファイルと `jsclasses` 系では組版結果が大きく異なるので安易に書き換えてはいけない．
 
 ## 本文組版の際の書体について
 
@@ -89,3 +90,4 @@ pdfTeX は海外で最も使用人口の多い TeX 処理系である．
 
 ## 参考文献
 - [TeX 処理系御伽話](https://web.archive.org/web/20190521132203/https://qiita.com/yyu/items/6404656f822ce14db935)
+- [文字修飾とフォント](https://hwb.ecc.u-tokyo.ac.jp/wp/applications-2/latex/font-2/)
