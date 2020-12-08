@@ -30,6 +30,9 @@
     "remark-math": "^2.0.1",
     "remark-parse": "^8.0.2",
     "remark-rehype": "^7.0.0",
+    "textlint": "^11.7.6",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-spelling": "^0.3.0",
     "unified": "^9.0.0",
     "unified-engine-gulp": "^8.0.0",
     "yaml": "^1.10.0"
