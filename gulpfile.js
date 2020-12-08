@@ -38,7 +38,7 @@ const engine = new Engine({
 })
 
 exports.default = () => 
-    gulp.src("*.md")
+    gulp.src("pages/*.md")
         .pipe(engine())
         .pipe(rename({extname: ".html"}))
         .pipe(gulp.dest("build/"))
