@@ -15,20 +15,19 @@ ${doctype}
         ${fs.readFileSync("node_modules/picnic/picnic.min.css", "utf-8")}
         ${fs.readFileSync("node_modules/highlight.js/styles/default.css", "utf-8")}
         body {
-            font-family: 'Crimson Text Pro', 'Noto Serif JP', 'Noto Serif SC', sans-serif;
+            font-family: 'Source Serif Pro', 'Noto Serif JP', 'Noto Serif SC', sans-serif;
             background: #e6dfdf;
         }
         nav {
             position: absolute;
         }
         main {
-            width: min(800px, 100%);
-            padding: 0px 20px;
+            width: min(900px, 100%);
             margin: 70px auto 20px auto;
         }
         footer {
-            width: min(800px, 100%);
-            padding: 0px 20px;
+            width: min(900px, 100%);
+            padding: 0px 80px;
             margin: 0 auto;
         }
         code {
@@ -36,7 +35,7 @@ ${doctype}
         }
         .paper {
           background: #fff;
-          padding: 30px;
+          padding: 30px 80px;
           position: relative;
         }
         .paper,
