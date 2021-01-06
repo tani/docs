@@ -10,21 +10,61 @@ ${doctype}
         <title>${frontmatter.title} - www.docs.casa</title>
         <link rel="icon" href="data:," />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Source+Code+Pro&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Source+Code+Pro&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
         <style>
         ${fs.readFileSync("node_modules/picnic/picnic.min.css", "utf-8")}
         ${fs.readFileSync("node_modules/highlight.js/styles/default.css", "utf-8")}
+        body {
+            font-family: 'Crimson Text Pro', 'Noto Serif JP', 'Noto Serif SC', sans-serif;
+            background: #e6dfdf;
+        }
         nav {
             position: absolute;
         }
-        header, main, footer {
-            font-family: 'Source Sans Pro', 'Noto Sans JP', 'Noto Sans SC', sans-serif;
+        main {
             width: min(800px, 100%);
             padding: 0px 20px;
-            margin: 50px auto;
+            margin: 70px auto 20px auto;
+        }
+        footer {
+            width: min(800px, 100%);
+            padding: 0px 20px;
+            margin: 0 auto;
         }
         code {
             font-family: 'Source Code Pro', monospace;
+        }
+        .paper {
+          background: #fff;
+          padding: 30px;
+          position: relative;
+        }
+        .paper,
+        .paper::before,
+        .paper::after {
+          /* Styles to distinguish sheets from one another */
+          box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+          border: 1px solid #bbb;
+        }
+        .paper::before,
+        .paper::after {
+          content: "";
+          position: absolute;
+          height: 95%;
+          width: 99%;
+          background-color: #eee;
+        }
+        .paper::before {
+          right: 15px;
+          top: 0;
+          transform: rotate(-1deg);
+          z-index: -1;
+        }
+        .paper::after {
+          top: 5px;
+          right: -5px;
+          transform: rotate(1deg);
+          z-index: -2;
         }
         </style>
     </head>
@@ -39,7 +79,7 @@ ${doctype}
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="paper">
             ${node}
         </main>
         <footer>
