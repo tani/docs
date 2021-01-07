@@ -16,6 +16,8 @@ TANIGUCHI Masaya is a first-year Ph.D. student  in Tojo  laboratory, Graduate Sc
 
 ## Refereed Publication
 
+See also [dblp](https://dblp.org/pid/242/9503.html).
+
 - Hiroki Sudo, **Masaya Taniguchi**, and Satoshi Tojo. "Finding Grammar in Music by Evolutionary Linguistics."
 - Song Yang, **Masaya Taniguchi**, Satoshi Tojo, “4-valued Logic for Agent Communication with Private / Public Information Passing”, Proceedings of the 11th International Conference on Agent and Artificial Intelligence，Vol. 1，pp. 54-61，2019
 
