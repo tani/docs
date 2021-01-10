@@ -34,11 +34,18 @@ See also [dblp](https://dblp.org/pid/242/9503.html).
 - Teaching assistant for "Formal Language and automata" (April. 2020 - June. 2020) 
 - Teaching assistant for "Mathematics for Information Scientist" (June 2020 - August 2020)
 
+## Financial Support
+
+- JASSO Scholarship, Exemption from refund due to outstanding performance,  April. 2018 - March. 2020
+- JAIST Support Foundation Scholarship Grant, April. 2018 - March. 2019
+- JAIST Scholarship M Program, April. 2019 - March. 2020
+- JAIST Doctoral Research Fellow, April. 2020 - March. 2021
+
 ## Research Experience
 
 - Instructor, Gakushuin University Computer Centre, April. 2015 - March. 2018
 - Research Assistant, National Institute of Informatics, August. 2016 - Now
-- Doctoral Research Fellow, Japan Advanced Institute of Science and Technology, April. 2020 - March. 2021
+- Doctoral Research Fellow, JAIST, April. 2020 - March. 2021
 - JSPS Research Fellow DC2 (Linguistics), Japan Society for the Promotion of Science, April. 2021 - March. 2023
 
 ## Softwares
