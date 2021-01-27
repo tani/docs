@@ -15,7 +15,7 @@ ${doctype}
         ${fs.readFileSync("node_modules/picnic/picnic.min.css", "utf-8")}
         ${fs.readFileSync("node_modules/highlight.js/styles/default.css", "utf-8")}
         body {
-            font-family: 'Source Serif Pro', 'Noto Serif JP', 'Noto Serif SC', sans-serif;
+            font-family: 'Source Serif Pro', 'Noto Serif JP', 'Noto Serif SC', serif;
             background: #e6dfdf;
         }
         nav {
