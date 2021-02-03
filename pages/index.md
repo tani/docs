@@ -13,3 +13,4 @@ Bibliotheca of Linguistics, Logic, and Lisp.
 - [Racket](/racket.html) - The programming language Racket
 - [GUIX利用ガイド](/guix_ja.html) - GUIX package manager guide for Japanese users
 - [日本語 LaTeX 作法](/latex_ja.html) - LaTeX guide for Japanese
+- [Deadlines](https://tani.github.io/illc-cfps/) - Deadlines listed on ILLC
