@@ -33,36 +33,42 @@ ${doctype}
             font-family: 'Source Code Pro', monospace;
         }
         .paper {
-          background: #fff;
-          padding: 30px 80px;
-          position: relative;
+            background: #fff;
+            padding: 10px;
+            box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+            border: 1px solid #bbb;
         }
-        .paper,
-        .paper::before,
-        .paper::after {
-          /* Styles to distinguish sheets from one another */
-          box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
-          border: 1px solid #bbb;
-        }
-        .paper::before,
-        .paper::after {
-          content: "";
-          position: absolute;
-          height: 95%;
-          width: 99%;
-          background-color: #eee;
-        }
-        .paper::before {
-          right: 15px;
-          top: 0;
-          transform: rotate(-1deg);
-          z-index: -1;
-        }
-        .paper::after {
-          top: 5px;
-          right: -5px;
-          transform: rotate(1deg);
-          z-index: -2;
+        @media screen and (min-width: 480px) {
+            .paper {
+                position: relative;
+                padding: 30px 80px;                
+            }
+            .paper::before,
+            .paper::after {
+                /* Styles to distinguish sheets from one another */
+                box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+                border: 1px solid #bbb;
+            }
+            .paper::before,
+            .paper::after {
+                content: "";
+                position: absolute;
+                height: 95%;
+                width: 99%;
+                background-color: #eee;
+            }
+            .paper::before {
+                right: 15px;
+                top: 0;
+                transform: rotate(-1deg);
+                z-index: -1;
+            }
+            .paper::after {
+                top: 5px;
+                right: -5px;
+                transform: rotate(1deg);
+                z-index: -2;
+            }
         }
         </style>
     </head>
