@@ -18,4 +18,4 @@ A list of softwares for my research.
 - Racket 7.8 - A general-purpose, multi-paradigm programming language based on the Scheme dialect of Lisp
 - Clojure 10.x - LISP for JVM
 - SWI-Prolog 8.2 - A free Prolog environment
-- [MyTableaux](https://gist.githack.com/tani/e148eac91f7ef3633fa7469eba815a51/raw/8837e201c77c1624a95d74db2cb1e9b6cc20e283/tableaux.html) - Online Tableaux based prover
+- [MyTableaux](https://gist.githack.com/tani/e148eac91f7ef3633fa7469eba815a51/raw/tableaux.html) - Online Tableaux based prover
