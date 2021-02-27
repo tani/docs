@@ -9,7 +9,6 @@ TANIGUCHI Masaya is a first-year Ph.D. student  in Tojo  laboratory, Graduate Sc
 
 ## Research Interests
 
-- Continuations in natural language
 - Montague semantics
 - Formal semantics of natural language
 - Programming language
@@ -33,6 +32,8 @@ See also [dblp](https://dblp.org/pid/242/9503.html).
 - Teaching assistant for "Mathematics for Information Scientist" (June 2019 - August 2019)
 - Teaching assistant for "Formal Language and automata" (April. 2020 - June. 2020) 
 - Teaching assistant for "Mathematics for Information Scientist" (June 2020 - August 2020)
+- Teaching assistant for "Formal Language and automata" (April. 2021 - June. 2021)
+- Teaching assistant for "Mathematical Logic" (April. 2021 - June. 2021)
 
 ## Financial Support
 
@@ -46,17 +47,7 @@ See also [dblp](https://dblp.org/pid/242/9503.html).
 - Instructor, Gakushuin University Computer Centre, April. 2015 - March. 2018
 - Research Assistant, National Institute of Informatics, August. 2016 - Now
 - Doctoral Research Fellow, JAIST, April. 2020 - March. 2021
-- JSPS Research Fellow DC2 (Linguistics), Japan Society for the Promotion of Science, April. 2021 - March. 2023
-
-## Softwares
-
-I am a member of following organization on GitHub.
-
-- [Roswell](https://github.com/roswell) (intended to be a launcher for a major lisp environment that just works)
-- [Textlint](https://github.com/textlint) (The pluggable natural language linter for text and markdown. )
-- [JSCL](https://github.com/jscl-project) (Common Lisp Implementation written in JavaScript)
-- [ISLISP Dev](https://github.com/islisp-dev)(ISLISP Implementation)
-- [The Tectonic Project](https://github.com/tectonic-typesetting) (A modernized, complete, embeddable TeX/LaTeX engine, powered by XeTeX and TeXLive)
+- JSPS Research Fellow DC2 (Linguistics, Humanities), Japan Society for the Promotion of Science, April. 2021 - March. 2023
 
 ## Contact
 
