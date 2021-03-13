@@ -50,3 +50,5 @@ We can use continuations everywhere. I lists the programming languages that have
   - FSharpPlus.Data.Cont
 - OCaml
   - Monad.Cont
+- TypeScript
+  - fp-ts-cont
