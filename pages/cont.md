@@ -48,3 +48,5 @@ We can use continuations everywhere. I lists the programming languages that have
   - algo.monads.cont-m
 - F#
   - FSharpPlus.Data.Cont
+- OCaml
+  - Monad.Cont
