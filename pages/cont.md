@@ -46,3 +46,5 @@ We can use continuations everywhere. I lists the programming languages that have
   - Cats.data.ContT
 - Clojure
   - algo.monads.cont-m
+- F#
+  - FSharpPlus.Data.Cont
