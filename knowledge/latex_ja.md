@@ -1,7 +1,9 @@
 ---
 layout: default
 lang: ja
-tags: knowledge
+tags:
+  - knowledge
+  - math
 title: 日本語 LaTeX 作法
 ---
 
