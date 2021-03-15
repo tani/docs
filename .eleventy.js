@@ -1,12 +1,16 @@
-const markdownIt = require("markdown-it");
-const mathjax = require("markdown-it-mathjax");
-
+const eleventyRemark = require('@fec/eleventy-plugin-remark');
 module.exports = function(eleventyConfig) {
-  const markdownLib = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true,
-  }).use(mathjax());
-  
-  eleventyConfig.setLibrary("md", markdownLib);
+  eleventyConfig.addPlugin(eleventyRemark, {
+    enableRehype: false,
+    plugins: [
+      require('remark-math'),
+      {
+        plugin: require('remark-rehype'),
+        options: { allowDangerousHtml: true }
+      },
+      require('rehype-mathjax'),
+      require('rehype-raw'),
+      require('rehype-stringify')
+    ]
+  });
 };
