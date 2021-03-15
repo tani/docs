@@ -1,7 +1,11 @@
 ---
+layout: default
 lang: en
+tags: knowledge
 title: Continuations in Programming Language
 ---
+
+# Continuations in Programming Language
 
 We can use continuations everywhere. I lists the programming languages that have functionalities to use continuations.
 

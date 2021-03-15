@@ -1,6 +1,8 @@
 ---
+layout: default
+lang: en
+tags: knowledge
 title: Toolbox
-language: en
 ---
 
 # Toolbox

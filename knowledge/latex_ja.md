@@ -1,5 +1,7 @@
 ---
-language: ja
+layout: default
+lang: ja
+tags: knowledge
 title: 日本語 LaTeX 作法
 ---
 

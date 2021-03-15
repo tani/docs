@@ -1,5 +1,7 @@
 ---
-language: ja
+layout: default
+lang: ja
+tags: knowledge
 title: GUIX利用ガイド
 ---
 

@@ -1,6 +1,8 @@
 ---
+layout: default
+lang: en
+tags: knowledge
 title: Prolog Snippets
-language: en
 ---
 
 # CPS Transformation

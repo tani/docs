@@ -1,5 +1,7 @@
 ---
-layout: default.ejs
+layout: default
+lang: en
+tags: knowledge
 title: Userscripts
 ---
 

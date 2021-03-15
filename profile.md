@@ -1,5 +1,7 @@
 ---
-language: en
+layout: default
+lang: en
+tags: knowledge
 title: Profile
 ---
 
