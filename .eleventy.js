@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
     enableRehype: false,
     plugins: [
       require('remark-math'),
+      require('remark-gfm'),
       {
         plugin: require('remark-rehype'),
         options: { allowDangerousHtml: true }
