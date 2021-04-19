@@ -7,7 +7,7 @@ title: Toolbox
 
 # Toolbox
 
-A list of softwares for my research.
+A list of software for my research.
 
 - macOS Big Sur - An operating system for Macintosh
 - Ubuntu 20.04 - A Linux distribution
