@@ -1,0 +1,10 @@
+tasks:
+  - init: npm ci && npm run build
+  - command: npm run dev
+vscode:
+  extensions:
+    - valentjn.vscode-ltex
+    - yzhang.markdown-all-in-one
+ports:
+  - port: 3000-8999
+    onOpen: open-preview
