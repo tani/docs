@@ -5,5 +5,5 @@ vscode:
     - valentjn.vscode-ltex
     - yzhang.markdown-all-in-one
 ports:
-  - port: 3000-8999
+  - port: 8080
     onOpen: open-preview
