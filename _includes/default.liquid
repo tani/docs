@@ -5,9 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{title}} - docs.casa</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Shippori+Mincho+B1:wght@400;700&display=swap" onload="this.rel='stylesheet'">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Shippori+Mincho+B1:wght@400;700&display=swap" />
+    <link rel="stylesheet" media="print" href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Shippori+Mincho+B1:wght@400;700&display=swap" onload="this.media='all'" />
+    <style>
+    /**
+     * Modern CSS Reset: https://github.com/andy-piccalilli/modern-css-reset
+     * Copyright (c) 2019 Andy Bell and other contributors
+     */
+    /* Box sizing rules */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    /* Remove default margin */
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    figure,
+    blockquote,
+    dl,
+    dd {
+      margin: 0;
+    }
+
+    /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+    ul[role="list"],
+    ol[role="list"] {
+      list-style: none;
+    }
+
+    /* Set core root defaults */
+    html:focus-within {
+      scroll-behavior: smooth;
+    }
+
+    /* Set core body defaults */
+    body {
+      min-height: 100vh;
+      text-rendering: optimizeSpeed;
+      line-height: 1.5;
+    }
+
+    /* A elements that don't have a class get default styles */
+    a:not([class]) {
+      text-decoration-skip-ink: auto;
+    }
+
+    /* Make images easier to work with */
+    img,
+    picture {
+      max-width: 100%;
+      display: block;
+    }
+
+    /* Inherit fonts for inputs and buttons */
+    input,
+    button,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    /* Remove all animations and transitions for people that prefer not to see them */
+    @media (prefers-reduced-motion: reduce) {
+      html:focus-within {
+      scroll-behavior: auto;
+      }
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+    </style>
     <style>
       body {
         font-family: 'Shippori Mincho B1', serif;
