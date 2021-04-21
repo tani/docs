@@ -28,14 +28,17 @@ See also [dblp](https://dblp.org/pid/242/9503.html).
 - **Masaya Taniguchi**, [Subjunctive Markers and Delimited Continuations](https://masaya.keybase.pub/slacs2019.pdf), Symbolic Logic and Computer Science, Kyoto, Japan, November. 2019
 - **Masaya Taniguchi**, [Generic Framework to Uncross Dependency](https://masaya.keybase.pub/arob2020.pdf), 25th International Symposium on Artificial Life and Robotics, Beppu, Japan, January. 2020
 
+and other local conferences.
+
 ## Teaching
+I have an experience to teach the formal language theories and undergraduated level mathematics.
 
 - Teaching assistant for "Formal Language and automata" (April. 2019 - June. 2019) 
 - Teaching assistant for "Mathematics for Information Scientist" (June 2019 - August 2019)
 - Teaching assistant for "Formal Language and automata" (April. 2020 - June. 2020) 
 - Teaching assistant for "Mathematics for Information Scientist" (June 2020 - August 2020)
 - Teaching assistant for "Formal Language and automata" (April. 2021 - June. 2021)
-- Teaching assistant for "Mathematical Logic" (April. 2021 - June. 2021)
+- Teaching assistant for "Algebra for Computer Scientist" (June 2021 - August 2021)
 
 ## Financial Support
 
@@ -64,4 +67,4 @@ utilities for daily work, and useful libraries. You can see these works on GitHu
 
 ### Acknoledgement
 
-My OSS work is supported by Gitpod. They provide [_Pro Open Source_](https://www.gitpod.io/docs/professional-open-source) license to me. I enjoy coding my OSS work with Gitpod everyday.
+My OSS work is supported by Gitpod. They provide [_Professional Open Source_](https://www.gitpod.io/docs/professional-open-source) license to me. I enjoy coding my OSS work with Gitpod everyday.
