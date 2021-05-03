@@ -10,14 +10,14 @@
     "dev": "eleventy --serve --input=src"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@fec/eleventy-plugin-remark": "^2.2.1",
-    "prettier": "^2.2.1",
-    "rehype-mathjax": "^3.1.0",
-    "rehype-raw": "^5.1.0",
-    "rehype-stringify": "^8.0.0",
-    "remark-gfm": "^1.0.0",
-    "remark-math": "^4.0.0",
-    "remark-rehype": "^8.1.0"
+    "@11ty/eleventy": "0.12.1",
+    "@fec/eleventy-plugin-remark": "2.2.1",
+    "prettier": "2.2.1",
+    "rehype-mathjax": "3.1.0",
+    "rehype-raw": "5.1.0",
+    "rehype-stringify": "8.0.0",
+    "remark-gfm": "1.0.0",
+    "remark-math": "4.0.0",
+    "remark-rehype": "8.1.0"
   }
 }
