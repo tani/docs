@@ -5,159 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{title}} - docs.casa</title>
     <link rel="icon" href="data:," />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Shippori+Mincho+B1:wght@400;700&display=swap" />
-    <link rel="stylesheet" media="print" href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Shippori+Mincho+B1:wght@400;700&display=swap" onload="this.media='all'" />
-    <style>
-    /**
-     * Modern CSS Reset: https://github.com/andy-piccalilli/modern-css-reset
-     * Copyright (c) 2019 Andy Bell and other contributors
-     */
-    /* Box sizing rules */
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-    }
-
-    /* Remove default margin */
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    p,
-    figure,
-    blockquote,
-    dl,
-    dd {
-      margin: 0;
-    }
-
-    /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-    ul[role="list"],
-    ol[role="list"] {
-      list-style: none;
-    }
-
-    /* Set core root defaults */
-    html:focus-within {
-      scroll-behavior: smooth;
-    }
-
-    /* Set core body defaults */
-    body {
-      min-height: 100vh;
-      text-rendering: optimizeSpeed;
-      line-height: 1.5;
-    }
-
-    /* A elements that don't have a class get default styles */
-    a:not([class]) {
-      text-decoration-skip-ink: auto;
-    }
-
-    /* Make images easier to work with */
-    img,
-    picture {
-      max-width: 100%;
-      display: block;
-    }
-
-    /* Inherit fonts for inputs and buttons */
-    input,
-    button,
-    textarea,
-    select {
-      font: inherit;
-    }
-
-    /* Remove all animations and transitions for people that prefer not to see them */
-    @media (prefers-reduced-motion: reduce) {
-      html:focus-within {
-      scroll-behavior: auto;
-      }
-      *,
-      *::before,
-      *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-      }
-    }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <style>
       body {
-        font-family: 'Shippori Mincho B1', serif;
-        width: min(900px, 100%);
-        margin: 0 auto;
-      }
-      @media(max-width: 900px) {
-        body {
-          padding: 0 10px;
-        }
-      }
-      @media(max-width: 375px) {
-        aside {
-          border-top: 1px solid black;
-        }
-      }
-      @media(min-width: 376px) {
-        main {
-          display: grid;
-          grid-template-columns: 2.4142fr 1fr;
-        } 
-        article {
-          padding-right: 10px;
-        }
-        aside {
-          border-left: 1px solid black;
-          padding-left: 10px;
-        }
-      }
-      pre, code {
-        font-family: 'Inconsolata', monospace;
-      }
-      pre > code {
-        overflow: auto;
-        white-space: pre-wrap;
-        word-wrap: break-word;
-      }
-      header {
-        border-bottom: solid 2px black;
-      }
-      footer {
-        border-top: solid 2px black;
+          max-width: min(85%, 780px);
       }
       nav ul {
         padding: 0;
         display: flex;
         list-style: none;
       }
-      nav ul li:before{
-        content: " [ ";
+      nav ul li:not(:last-of-type):after {
+        content: " / ";
+        margin-right: 0.3rem;
       }
-      nav ul li:after {
-        content: " ] ";
-      }
-      h1, h2, h3, h4, h5 {
-        margin: 1rem 0;
-      }
-      thead {
-        border-bottom: 2px solid black;
-      }
-      table, th, td {
-        border-collapse: collapse;
-        border: 1px solid black;
-      }
-      input[name="tag"] + ul {
+      input.tag ~ ul {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.25s;
       }
-      input[name="tag"]:checked + ul {
+      input.tag:checked ~ ul {
         max-height: 500px;
+      }
+      label.tag {
+        cursor: pointer;
       }
     </style>
   </head>
@@ -173,18 +44,19 @@
         </ul>
       </nav>
     </header>
+    <hr>
     <main>
       <article>
       {{ content | safe }}
       </article>
       {% if title != "Home" %}
       <aside>
-        <h2>Tags</h2>
+        <h2>See also</h2>
         <ul>
         {% for tag in collections.tagList %}
         <li>
-          <label for="{{ tag }}">{{ tag }}</label>
-          <input id="{{ tag }}" name="tag" type="checkbox" hidden/>
+          <label for="{{ tag }}" class="tag"><code>{{ tag }}</code></label>
+          <input id="{{ tag }}" name="tag" class="tag" type="checkbox" hidden/>
           <ul>
             {% for article in collections[tag]%}
             <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
