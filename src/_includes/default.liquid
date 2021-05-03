@@ -151,6 +151,14 @@
         border-collapse: collapse;
         border: 1px solid black;
       }
+      input[name="tag"] + ul {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.25s;
+      }
+      input[name="tag"]:checked + ul {
+        max-height: 500px;
+      }
     </style>
   </head>
   <body>
@@ -171,16 +179,18 @@
       </article>
       {% if title != "Home" %}
       <aside>
-        {% if tags contains "blog" %}
-        {% assign tag = "blog" %}
-        {% endif %}
-        {% if tags contains "knowledge" %}
-        {% assign tag = "knowledge" %}
-        {% endif %}
-        <h2>Articles</h2>
+        <h2>Tags</h2>
         <ul>
-        {% for article in collections[tag]%}
-          <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+        {% for tag in collections.tagList %}
+        <li>
+          <label for="{{ tag }}">{{ tag }}</label>
+          <input id="{{ tag }}" name="tag" type="checkbox" hidden/>
+          <ul>
+            {% for article in collections[tag]%}
+            <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
         {% endfor %}
         </ul>
       </aside>

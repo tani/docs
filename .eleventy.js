@@ -14,4 +14,7 @@ module.exports = function(eleventyConfig) {
       require('rehype-stringify')
     ]
   });
+  eleventyConfig.addCollection("tagList", collection => {
+    return Array.from(new Set(collection.getAll().reduce((p, c)=>p.concat(c.data.tags), []).sort()))
+  });
 };

@@ -5,9 +5,9 @@
   "author": "TANIGUCHI Masaya",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy --input=src",
     "postbuild": "prettier --write _site",
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve --input=src"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
