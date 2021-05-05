@@ -3,7 +3,7 @@ layout: default
 lang: en
 tags: blog
 title: Isabelle in Emacs
-date: 2021-05-02
+date: Last Modified
 ---
 
 ## Isabelle in Emacs

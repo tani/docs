@@ -48,6 +48,7 @@
     <main>
       <article>
       {{ content | safe }}
+      (Published at {{ page.date | toUTCString }})
       </article>
       {% if title != "Home" %}
       <aside>

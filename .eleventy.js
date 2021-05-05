@@ -17,4 +17,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("tagList", collection => {
     return Array.from(new Set(collection.getAll().reduce((p, c)=>p.concat(c.data.tags), []).filter(tag => !!tag).sort()))
   });
+  eleventyConfig.addLiquidFilter("toUTCString", value => {
+    return value.toUTCString();
+  })
 };
