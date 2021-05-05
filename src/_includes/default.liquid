@@ -56,7 +56,7 @@
         {% for tag in collections.tagList %}
         <li>
           <label for="{{ tag }}" class="tag"><code>{{ tag }}</code></label>
-          <input id="{{ tag }}" name="tag" class="tag" type="checkbox" hidden/>
+          <input id="{{ tag }}" class="tag" type="checkbox" hidden/>
           <ul>
             {% for article in collections[tag]%}
             <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
