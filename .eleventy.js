@@ -3,15 +3,21 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyRemark, {
     enableRehype: false,
     plugins: [
-      require('remark-math'),
       require('remark-gfm'),
+      require('remark-math'),
       {
         plugin: require('remark-rehype'),
         options: { allowDangerousHtml: true }
       },
+      {
+        plugin: require('rehype-add-classes'),
+        options: {
+          table: 'table'
+        }
+      },
       require('rehype-mathjax'),
       require('rehype-raw'),
-      require('rehype-stringify')
+      require('rehype-stringify'),
     ]
   });
   eleventyConfig.addCollection("tagList", collection => {

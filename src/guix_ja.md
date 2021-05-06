@@ -5,9 +5,9 @@ tags: knowledge
 title: GUIX利用ガイド
 ---
 
-# GUIX利用ガイド
+## GUIX利用ガイド
 
-## 検証環境
+### 検証環境
 
     Operating System: Kubuntu 20.04
     カーネルバージョン: 5.4.0-29-generic
@@ -15,7 +15,7 @@ title: GUIX利用ガイド
     プロセッサ: 4 × Intel® Core™ i5-4278U CPU @ 2.60GHz
     メモリ: 15.5 GiB of RAM
 
-## インストール
+### インストール
 
 GUIXのインストールには幾つかの方法があるが、標準的なLinux環境ではシェルインストーラスクリプトを使用するのが便利である。
 このインストーラはダウンロードしたパッケージ郡をPGPで検査するので、実行前にGUIXの開発者のPGP公開鍵をインポートしておく必要がある。
@@ -40,7 +40,7 @@ echo 'source $HOME/.guix-profile/etc/profile' >> ~/.bashrc
 
 なお、`guile: warning failed to install locale`と表示された場合は、[下記](#troubleshooting)を参考に対応する。
 
-## チャンネル
+### チャンネル
 
 GUIXの公式のリポジトリはCIサーバがソースコードをダウンロードしビルドできるものしか登録できないので、
 各ソフトウェア開発チームが配布している公式のビルド済みバイナリは登録できない。そこで筆者も自分用にパッケージを配布する[チャンネル](https://github.com/nzt/guix-vanilla)を用意した。
@@ -53,7 +53,7 @@ GUIXの公式のリポジトリはCIサーバがソースコードをダウン�
        %default-channels)
 ```
 
-## <a name="troubleshooting">トラブルシューティング</a>
+### <a name="troubleshooting">トラブルシューティング</a>
 
 以下では日本語環境でGUIXを使用する際のよくある問題とその解決方法を示す。
 

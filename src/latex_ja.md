@@ -7,9 +7,9 @@ tags:
 title: 日本語 LaTeX 作法
 ---
 
-# 日本語 $\mathrm{\LaTeX}$ 作法
+## 日本語 $\mathrm{\LaTeX}$ 作法
 
-## TeX ディストリビューション
+### TeX ディストリビューション
 
 - Win32TeX
 - TinyTeX
@@ -24,7 +24,7 @@ title: 日本語 LaTeX 作法
 - Drag & Drop UpTeX
 - Tectonic
 
-## TeX エンジン
+### TeX エンジン
 
 現在,日本語組版ができる TeX 処理系のうちメジャーなものは以下の通りである．
 
@@ -59,7 +59,7 @@ pdfTeX は海外で最も使用人口の多い TeX 処理系である．
 内部エンコーディングが Unicode ではないので，適当な処理をせずに直接 pdflatex を使って日本語のドキュメントをコンパイルしようとすると，
 失敗する．また pdfTeX の日本語用のドキュメントクラスも，十分な禁則処理を実装しきれておらず，貢献者を募っている状況がある．
 
-## ドキュメントクラス
+### ドキュメントクラス
 
 日本語ドキュメントクラスは`jclasses`と`jsclasses`, `ltjsclasses`, `Bxjscls`がある．
 
@@ -74,7 +74,7 @@ pdfTeX は海外で最も使用人口の多い TeX 処理系である．
 とくに理由がなければ，`jsclasses`か`ltjsclasses`を使用する TeX 処理系によって選べばよい．
 ちなみに `jclasses` 系のクラスファイルと `jsclasses` 系では組版結果が大きく異なるので安易に書き換えてはいけない．
 
-## 本文組版の際の書体について
+### 本文組版の際の書体について
 
 | 結果 | コマンド | 意味 |
 |:-----|:-------|:----|
@@ -88,10 +88,10 @@ pdfTeX は海外で最も使用人口の多い TeX 処理系である．
 | 明朝体 | `\textmc{明朝体}` | 本文の通常の書体 |
 | ゴシック体 | `\textgt{ゴシック体}` | 強調，見出し用の書体 |
 
-## Beamer
+### Beamer
 
 通常の beamer ドキュメントクラスに`luatexja`パッケージを読み込むことで，日本語で Beamer ドキュメントを作ることができる．
 
-## 参考文献
+### 参考文献
 - [TeX 処理系御伽話](https://web.archive.org/web/20190521132203/https://qiita.com/yyu/items/6404656f822ce14db935)
 - [文字修飾とフォント](https://hwb.ecc.u-tokyo.ac.jp/wp/applications-2/latex/font-2/)
