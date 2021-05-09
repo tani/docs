@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
     enableRehype: false,
     plugins: [
       require('remark-gfm'),
+      require('remark-directive'),
       require('remark-math'),
       {
         plugin: require('remark-rehype'),
@@ -19,7 +20,7 @@ module.exports = function(eleventyConfig) {
       require('rehype-slug'),
       require('rehype-mathjax'),
       require('rehype-raw'),
-      require('rehype-stringify'),
+      require('rehype-stringify')
     ]
   });
   eleventyConfig.addPlugin(eleventyTOC);
