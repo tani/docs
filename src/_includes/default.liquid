@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5/dist/sandstone/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css" />
   <style>
+    aside h2 {
+      font-size: 1.3em;
+    }
     input.tag~ul {
       max-height: 0;
       overflow: hidden;
@@ -50,30 +53,36 @@
   </header>
   <main>
     <div class="container py-3 border-bottom">
-      <div class="row justify-content-center">
-        <div class="col-xl-10">
+      <div class="row">
+        <div class="col-md-9">
           <article>
             {{ content | safe }}
             (Published at {{ page.date | toUTCString }})
           </article>
-          {% if title != "Home" %}
-          <aside>
-            <h2>See also</h2>
-            <ul>
-              {% for tag in collections.tagList %}
-              <li>
-                <label for="{{ tag }}" class="tag"><code>{{ tag }}</code></label>
-                <input id="{{ tag }}" class="tag" type="checkbox" hidden />
-                <ul>
-                  {% for article in collections[tag]%}
-                  <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
-                  {% endfor %}
-                </ul>
-              </li>
-              {% endfor %}
-            </ul>
+        </div>
+        <div class="col-md-3">
+          <aside class="sticky-top">
+            <div class="d-none d-md-block">
+              <h2>Table of Contents</h2>
+              {{ content | toc }}
+            </div>
+            <div class="pt-3 pt-md-0">
+              <h2>See also</h2>
+              <ul>
+                {% for tag in collections.tagList %}
+                <li>
+                  <label for="{{ tag }}" class="tag"><code>{{ tag }}</code></label>
+                  <input id="{{ tag }}" class="tag" type="checkbox" hidden />
+                  <ul>
+                    {% for article in collections[tag]%}
+                    <li><a href="{{ article.url }}">{{ article.data.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
           </aside>
-          {% endif %}
         </div>
       </div>
     </div>
