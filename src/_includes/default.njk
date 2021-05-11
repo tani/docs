@@ -8,11 +8,12 @@
   <link rel="icon" href="data:," />
   <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net.com/" crossorigin>
-  <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5/dist/sandstone/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css" />
+  
+  <script>
+    {% include '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js' %}
+  </script>
   <style>
+    {% include '../../node_modules/bootswatch/dist/yeti/bootstrap.min.css' %}
     aside h2 {
       font-size: 1.3em;
     }
@@ -21,11 +22,9 @@
       overflow: hidden;
       transition: max-height 0.25s;
     }
-
     input.tag:checked~ul {
       max-height: 500px;
     }
-
     label.tag {
       cursor: pointer;
     }
@@ -60,14 +59,14 @@
         <div class="col-md-9">
           <article>
             {{ content | safe }}
-            (Published at {{ page.date | toUTCString }})
+            (Published at {{ page.date.toUTCString() }})
           </article>
         </div>
         <div class="col-md-3">
           <aside class="sticky-top">
             <div class="d-none d-md-block">
               <h2>Table of Contents</h2>
-              {{ content | toc }}
+              {{ content | toc | safe }}
             </div>
             <div class="pt-3 pt-md-0">
               <h2>See also</h2>
