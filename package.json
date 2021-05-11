@@ -6,7 +6,6 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "eleventy --input=src",
-    "postbuild": "prettier --write _site",
     "dev": "eleventy --serve --input=src"
   },
   "dependencies": {
