@@ -1,6 +1,7 @@
 const eleventyRemark = require('@fec/eleventy-plugin-remark');
 const eleventyTOC = require('eleventy-plugin-toc');
-const htmlMinifier = require('html-minifier')
+const htmlMinifier = require('html-minifier');
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyRemark, {
     enableRehype: false,
@@ -18,6 +19,7 @@ module.exports = function(eleventyConfig) {
           table: 'table'
         }
       },
+      require('rehype-highlight'),
       require('rehype-slug'),
       require('rehype-mathjax'),
       require('rehype-raw'),

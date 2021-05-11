@@ -46,7 +46,7 @@ GUIXの公式のリポジトリはCIサーバがソースコードをダウン�
 各ソフトウェア開発チームが配布している公式のビルド済みバイナリは登録できない。そこで筆者も自分用にパッケージを配布する[チャンネル](https://github.com/nzt/guix-vanilla)を用意した。
 このチャンネルはx86_64のLinux環境でしかサポートしておらずRUNPATHの設定が怪しいのでGUIX SDでは動作しない恐れがあることに注意して欲しい。このチャンネルは`~/.config/guix/channels/`に以下を追記して`guix pull`を実行することで有効化される。
 
-```scheme
+```lisp
 (cons* (channel
         (name 'vanilla)
         (url "https://github.com/nzt/guix-vanilla"))
