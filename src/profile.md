@@ -53,6 +53,10 @@ I have an experience to teach the formal language theories and undergraduate lev
 - Doctoral Research Fellow, JAIST, April. 2020 – March. 2021
 - JSPS Research Fellow DC2 (Linguistics, Humanities), Japan Society for the Promotion of Science, April. 2021 – March. 2023
 
+### Research Grant
+
+- [Polymorphic Combinatory Categorial Grammar for Incremental Parsing](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-21J15207/), Grant-in-Aid for JSPS Fellows, April. 2021 - March. 2023
+
 ### Contact
 
 - E-mail: `taniguchi (at) jaist.ac.jp`
