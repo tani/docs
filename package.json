@@ -15,7 +15,7 @@
     "bootswatch": "5.0.1",
     "eleventy-plugin-toc": "1.1.0",
     "html-minifier": "4.0.0",
-    "prettier": "2.3.0",
+    "prettier": "2.3.1",
     "rehype-add-classes": "1.0.0",
     "rehype-highlight": "4.1.0",
     "rehype-mathjax": "3.1.0",
