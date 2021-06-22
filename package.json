@@ -11,7 +11,7 @@
   "dependencies": {
     "@11ty/eleventy": "0.12.1",
     "@fec/eleventy-plugin-remark": "2.2.1",
-    "bootstrap": "5.0.1",
+    "bootstrap": "5.0.2",
     "bootswatch": "5.0.1",
     "eleventy-plugin-toc": "1.1.0",
     "html-minifier": "4.0.0",
