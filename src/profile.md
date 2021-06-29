@@ -65,6 +65,10 @@ I have an experience to teach the formal language theories and undergraduate lev
 
 - Tokyo Industrial Education Encouragement Award, TITECH HST, Tokyo, 2014
 
+### Physical Skills
+
+- Japanese Martial Arts, Kendo 3rd grade(dan), All Kendo Federation, 2013.
+
 ### Contact
 
 - E-mail: `taniguchi (at) jaist.ac.jp`, `taniguchi (at) masaya.info`
