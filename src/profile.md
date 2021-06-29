@@ -67,7 +67,7 @@ I have an experience to teach the formal language theories and undergraduate lev
 
 ### Physical Skills
 
-- Japanese Martial Arts, Kendo 3rd grade(dan), All Kendo Federation, 2013.
+- Japanese Martial Arts, Kendo 3rd grade(dan), All Japan Kendo Federation, 2013.
 
 ### Contact
 
