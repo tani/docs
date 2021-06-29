@@ -59,7 +59,7 @@ I have an experience to teach the formal language theories and undergraduate lev
 
 ### Research Grant
 
-- [Polymorphic Combinatory Categorial Grammar for Incremental Parsing](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-21J15207/), Grant-in-Aid for JSPS Fellows, April. 2021 - March. 2023
+- [Polymorphic Combinatory Categorial Grammar for Incremental Parsing](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-21J15207/) (800,000 JPY in 2021, 400,000 JPY in 2022), Grant-in-Aid for JSPS Fellows, April. 2021 - March. 2023
 
 ### Awards
 
@@ -67,7 +67,7 @@ I have an experience to teach the formal language theories and undergraduate lev
 
 ### Physical Skills
 
-- Japanese Martial Arts, Kendo 3rd dan grade, All Japan Kendo Federation, 2013.
+- Japanese Martial Arts, Kendo 3rd dan grade, All Japan Kendo Federation, 2013
 
 ### Contact
 
