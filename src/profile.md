@@ -39,6 +39,10 @@ I have an experience to teach the formal language theories and undergraduate lev
 - Teaching assistant for “Formal Language and automata” (April. 2021 – June. 2021)
 - Teaching assistant for “Algebra for Computer Scientist” (June 2021 – August 2021)
 
+### Social Contribution Activities
+
+- Volunteer education support at an orphanage Seirei Aiji En, Ishikawa, Japan, July. 2021 - Now
+
 ### Financial Support
 
 - JASSO Scholarship, Exemption from refund due to outstanding performance, April. 2018 – March. 2020
@@ -59,7 +63,7 @@ I have an experience to teach the formal language theories and undergraduate lev
 
 ### Contact
 
-- E-mail: `taniguchi (at) jaist.ac.jp`
+- E-mail: `taniguchi (at) jaist.ac.jp`, `taniguchi (at) masaya.info`
 - GitHub: [@tani](https://github.com/tani)
 - Keybase: [@masaya](https://keybase.io/masaya)
 
