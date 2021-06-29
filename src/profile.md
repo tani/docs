@@ -32,11 +32,11 @@ And other local conferences.
 
 I have an experience to teach the formal language theories and undergraduate level mathematics.
 
-- Teaching assistant for “Formal Language and automata” (April. 2019 – June. 2019)
+- Teaching assistant for “Formal Language and Automata” (April. 2019 – June. 2019)
 - Teaching assistant for “Mathematics for Information Scientist” (June 2019 – August 2019)
-- Teaching assistant for “Formal Language and automata” (April. 2020 – June. 2020)
+- Teaching assistant for “Formal Language and Automata” (April. 2020 – June. 2020)
 - Teaching assistant for “Mathematics for Information Scientist” (June 2020 – August 2020)
-- Teaching assistant for “Formal Language and automata” (April. 2021 – June. 2021)
+- Teaching assistant for “Formal Language and Automata” (April. 2021 – June. 2021)
 - Teaching assistant for “Algebra for Computer Scientist” (June 2021 – August 2021)
 
 ### Social Contribution Activities
@@ -67,7 +67,7 @@ I have an experience to teach the formal language theories and undergraduate lev
 
 ### Physical Skills
 
-- Japanese Martial Arts, Kendo 3rd grade(dan), All Japan Kendo Federation, 2013.
+- Japanese Martial Arts, Kendo 3rd dan grade, All Japan Kendo Federation, 2013.
 
 ### Contact
 
