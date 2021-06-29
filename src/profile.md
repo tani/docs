@@ -46,9 +46,9 @@ I have an experience to teach the formal language theories and undergraduate lev
 ### Financial Support
 
 - JASSO Scholarship, Exemption from refund due to outstanding performance, April. 2018 – March. 2020
-- JAIST Support Foundation Scholarship Grant, April. 2018 – March. 2019
-- JAIST Scholarship M Program, April. 2019 – March. 2020
-- JAIST Doctoral Research Fellow, April. 2020 – March. 2021
+- JAIST Support Foundation Scholarship Grant (top 2 students in all first year students in the master's program, around 400 students), April. 2018 – March. 2019
+- JAIST Scholarship M Program (top 25% of all second year students in the master's program, around 400 students), April. 2019 – March. 2020
+- JAIST Doctoral Research Fellow (top 20% of all successful applicants for the doctoral program, around 100 students), April. 2020 – March. 2021
 
 ### Research Experience
 
@@ -60,6 +60,10 @@ I have an experience to teach the formal language theories and undergraduate lev
 ### Research Grant
 
 - [Polymorphic Combinatory Categorial Grammar for Incremental Parsing](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-21J15207/), Grant-in-Aid for JSPS Fellows, April. 2021 - March. 2023
+
+### Awards
+
+- Tokyo Industrial Education Encouragement Award, TITECH HST, Tokyo, 2014
 
 ### Contact
 
