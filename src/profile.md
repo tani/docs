@@ -72,13 +72,15 @@ I have an experience to teach the formal language theories and undergraduate lev
 ### Contact
 
 - E-mail: `taniguchi (at) jaist.ac.jp`, `taniguchi (at) masaya.info`
-- GitHub: [@tani](https://github.com/tani)
-- Keybase: [@masaya](https://keybase.io/masaya)
 
 ### Software products
 
 I am an OSS developer joining many projects such as the interpreter of programming language,
 utilities for daily work, and useful libraries. You can see these works on GitHub.
+
+- GitHub: [tani](https://github.com/tani)
+- Python PyPI: [taniguchi](https://pypi.org/user/taniguchi/)
+- JavaScript NPM: [ta2gch](https://www.npmjs.com/~ta2gch)
 
 #### Acknowledgement
 
