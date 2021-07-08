@@ -79,6 +79,7 @@ I am an OSS developer joining many projects such as the interpreter of programmi
 utilities for daily work, and useful libraries. You can see these works on GitHub.
 
 - GitHub: [tani](https://github.com/tani)
+- Ruby RubyGems: [taniguchi](https://rubygems.org/profiles/taniguchi/)
 - Python PyPI: [taniguchi](https://pypi.org/user/taniguchi/)
 - JavaScript NPM: [ta2gch](https://www.npmjs.com/~ta2gch)
 
