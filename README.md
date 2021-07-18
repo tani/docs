@@ -1,9 +1,3 @@
----
-layout: default
-lang: en
-title: Home
----
-
 ## Index
 
 Welcome to my webpage. I am TANIGUCHI Masaya, a JSPS fellow at JAIST. <br>
