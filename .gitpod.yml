@@ -1,9 +1,9 @@
 tasks:
-  - command: npm ci && npm run dev
+  - command: python3 -m http.server
 vscode:
   extensions:
     - valentjn.vscode-ltex
     - yzhang.markdown-all-in-one
 ports:
-  - port: 8080
+  - port: 8000
     onOpen: open-preview
