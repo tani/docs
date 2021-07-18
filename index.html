@@ -163,8 +163,11 @@
       doc.querySelector("nav").remove();
       const article = doc.body.innerHTML;
       document.body.innerHTML += bodyTemplate({ header: compileHeader(header), footer, article, aside });
-      Array.from(document.querySelectorAll("a[href*='#']")).forEach(
-        (e) => e.addEventListener("click", () => window.location.reload())
+      Array.from(document.querySelectorAll("a[href*='#']:not(.toc-link)")).forEach(
+        (el) => el.addEventListener("click", (ev) => {
+            window.location.href = ev.target.href;
+            window.location.reload();
+        })
       );
       Array.from(document.querySelectorAll("h1,h2,h3,h4,h5")).forEach(
         (e) => (e.id = "/" + contentPath + "#" + e.id)
