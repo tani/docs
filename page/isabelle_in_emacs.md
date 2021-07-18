@@ -1,11 +1,3 @@
----
-layout: default
-lang: en
-tags: blog
-title: Isabelle in Emacs
-date: 2021-05-02T09
----
-
 ## Isabelle in Emacs
 
 About a decade ago, proof-general maintainers decided to stop maintaining the plugin for the proof assistant, Isabelle. The reason was the API is not stable between Emacs and Isabelle. We, hence, needed to use jEdit to develop our proofs. We can see enough buttons to apply Isabelle functions on the editor, but which is an inconvenient interface to write code with friendly keybindings such as Emacs and Vim. On the other hand, proof-general maintainers provide an easy interface to use Coq in Emacs. This fact was a solid disadvantage for Isabelle users.

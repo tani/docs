@@ -1,10 +1,3 @@
----
-layout: default
-lang: en
-tags: blog
-title: Bookmarklet
----
-
 ## Bookmarklet
 
 Have you heard the term bookmarklet? You might know some ways to customize your web browsers, such as web extensions, add-ons, and userscripts, which are secure and well-known technologies developed by giants like Google, Microsoft, and Mozilla. The bookmarklet is the oldest technology that firstly appeared in the 1990s by Netscape. 

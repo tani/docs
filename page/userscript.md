@@ -1,10 +1,3 @@
----
-layout: default
-lang: en
-tags: knowledge
-title: Userscripts
----
-
 # Userscripts
 
 These snippets were written by TANIGUCHI Masaya.

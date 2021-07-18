@@ -1,10 +1,3 @@
----
-layout: default
-lang: en
-tags: knowledge
-title: Toolbox
----
-
 # Toolbox
 
 A list of software for my research.

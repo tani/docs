@@ -1,12 +1,3 @@
----
-layout: default
-lang: ja
-tags:
-  - knowledge
-  - math
-title: 日本語 LaTeX 作法
----
-
 ## 日本語 $\mathrm{\LaTeX}$ 作法
 
 ### TeX ディストリビューション

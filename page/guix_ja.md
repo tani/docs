@@ -1,10 +1,3 @@
----
-layout: default
-lang: ja
-tags: knowledge
-title: GUIX利用ガイド
----
-
 ## GUIX利用ガイド
 
 ### 検証環境
