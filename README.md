@@ -5,4 +5,4 @@ My research interests lie in logic and linguistics.
 
 ## Contents
 
-- [Profile](page/profile.md)
+- [Profile](./#/page/profile.md)
