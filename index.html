@@ -163,6 +163,9 @@
       doc.querySelector("nav").remove();
       const article = doc.body.innerHTML;
       document.body.innerHTML += bodyTemplate({ header: compileHeader(header), footer, article, aside });
+      Array.from(document.querySelectorAll("a[href~='#']")).forEach(
+        (e) => e.addEventListener("click", () => document.reload())
+      );
       Array.from(document.querySelectorAll("h1,h2,h3,h4,h5")).forEach(
         (e) => (e.id = "/" + contentPath + "#" + e.id)
       );
