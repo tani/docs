@@ -25,7 +25,7 @@
   <link rel="stylesheet" id="highlight" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/default.min.css">
   <template id="navbar">
     <nav class="container-fluid navbar navbar-expand-md navbar-dark bg-primary">
-      <a class="navbar-brand" href="#/">{{= title }}</a>
+      <a class="navbar-brand">{{= title }}</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
         aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -127,7 +127,7 @@
 
     const contentPath = location.hash.replace(/#\//, "").replace(/#.*$/, "");
     if (contentPath === "") {
-      location.href = location.href + "#/README.md";
+      location.href = location.origin+location.pathname+"#/README.md";
       location.reload();
     }
 
@@ -163,12 +163,11 @@
       doc.querySelector("nav").remove();
       const article = doc.body.innerHTML;
       document.body.innerHTML += bodyTemplate({ header: compileHeader(header), footer, article, aside });
-      Array.from(document.querySelectorAll("a[href*='#']:not(.toc-link)")).forEach(
-        (el) => el.addEventListener("click", (ev) => {
-            window.location.href = ev.target.href;
-            window.location.reload();
-        })
-      );
+      window.addEventListener("hashchange", (ev) => {
+        if (!location.hash.match(contentPath)) {
+          location.reload()
+        }
+      })
       Array.from(document.querySelectorAll("h1,h2,h3,h4,h5")).forEach(
         (e) => (e.id = "/" + contentPath + "#" + e.id)
       );
